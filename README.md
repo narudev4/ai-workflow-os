@@ -56,6 +56,7 @@ docs/
   automation-roadmap.md
   operating-loop.md
   source-chat-summary.md
+  claude-session-2026-08-17-loop-engineering.md
 templates/
   project/
     README.md
@@ -90,5 +91,6 @@ experiments/
 
 ## 次の入口
 
-最初は [experiments/2026-08-19-first-loop.md](experiments/2026-08-19-first-loop.md) を開き、1案件で GitHub正本 -> Sheets表示 のループを回してください。
+Claude Codeで先に検証されたMTG後処理ループから壁打ちを再開する場合は、[docs/claude-session-2026-08-17-loop-engineering.md](docs/claude-session-2026-08-17-loop-engineering.md) を開いてください。
 
+GitHub正本 -> Sheets表示の最初の実験は、[experiments/2026-08-19-first-loop.md](experiments/2026-08-19-first-loop.md) を入口にしてください。
