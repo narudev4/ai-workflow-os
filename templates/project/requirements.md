@@ -37,7 +37,7 @@
 
 ## Open Questions
 
-未確定事項は `questions.csv` を正とする。
+未確定事項は question Issue を正とする。ここには書かない。
 
 ## Definition Boundary
 

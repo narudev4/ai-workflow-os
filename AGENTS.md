@@ -10,8 +10,9 @@ AI Workflow OS は、AIそのものを中心にした自動化ではなく、業
 
 - 日本語で簡潔に作業する
 - 確認済みの事実と未確認の仮説を混ぜない
-- GitHub を正本、Google Sheets を表示・共有先として扱う
-- クライアント合意前の不明点は `questions.csv` に置く
+- GitHub（Issues + Markdown）を正本、Google Sheets を先方とのインターフェース（共有・すり合わせ・回答記入）として扱う
+- 状態が動くもの（工程タスク・質問）は Issues に置く。CSV は使わない
+- クライアント合意前の不明点は question Issue に置く
 - 詳細設計、API設計、DB設計は要件定義フェーズに持ち込まない
 - 変更理由が後から重要になるものは `decisions/` に記録する
 
@@ -33,11 +34,11 @@ Done:
 ```text
 Task: 画面一覧の作成
 Input: モック、要求整理、過去決定事項
-Output: screens.csv
+Output: screens.md
 Done:
 - モック上の画面を全列挙している
 - 主要な状態、権限、例外候補を見ている
-- 未確定事項が questions.csv に登録されている
+- 未確定事項が question Issue として起票されている
 ```
 
 ## 要件定義の境界
@@ -63,9 +64,9 @@ Done:
 
 - 会話中の思いつきはメモに留める
 - 確定した要求だけ `requirements.md` に入れる
-- 先方確認が必要なものは `questions.csv` に入れる
+- 先方確認が必要なものは question Issue として起票する
 - 意思決定になったものは `decisions/` に入れる
-- Sheets は GitHub の内容を見せるためのビューとして更新する
+- Sheets は Issues と md から生成する先方確認用アウトプットとして更新する
 
 ## 改善ループ
 
