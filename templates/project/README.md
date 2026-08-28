@@ -15,7 +15,7 @@
 | 意思決定 | `decisions/` | 日付・理由・出典つき |
 | 調査資料 | `research/` | 参照資料 |
 
-Google Sheets は先方確認用のアウトプット専用。先方は GitHub を見ないため、先方に見せるものはすべて Sheets に出す。
+Google Sheets は先方とのインターフェース。先方は GitHub を見ないため、先方に見せるものはすべて Sheets に出し、MTG での状況共有・文字ベースのすり合わせ・質問への回答記入も Sheets 上で行う。先方が書き込んだ内容は確認後に Issues / md へ昇格する（正本は GitHub のまま）。
 
 ## Issues の運用
 

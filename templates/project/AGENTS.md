@@ -8,7 +8,7 @@
 - 確定事項だけ requirements.md / screens.md / features.md / testcases.md に反映する
 - 未確定事項は question Issue として起票する。md に混ぜない
 - 先方合意、社内判断、重要な方針変更は decisions/ に記録する
-- Sheets は先方確認用のアウトプットであり、正本ではない。手編集された内容は確認後に Issues / md に戻す
+- Sheets は先方とのインターフェースであり、正本ではない。MTG でのすり合わせ・質問回答の記入に使い、書き込まれた内容は確認後に Issues / md に昇格する
 - 要件定義では詳細なDB/API/実装設計に入らない
 
 ## 標準タスク

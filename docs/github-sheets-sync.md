@@ -2,9 +2,9 @@
 
 ## 方針
 
-GitHub（Issues + Markdown）を正本、Google Sheets を先方確認用のアウトプットとして扱う。
+GitHub（Issues + Markdown）を正本、Google Sheets を先方とのインターフェースとして扱う。
 
-先方はエンジニアではなく GitHub に馴染みがないため、先方が見る・書き込むのは Sheets のみ。GitHub 側は AI と Walkers の作業場に徹する。
+先方はエンジニアではなく GitHub に馴染みがないため、先方が見る・書き込むのは Sheets のみ。MTG での状況共有・文字ベースのすり合わせ・質問への回答記入も Sheets 上で行う。GitHub 側は AI と Walkers の作業場に徹する。
 
 ## 対応関係
 

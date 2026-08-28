@@ -16,7 +16,7 @@ Claude Code    ローカル環境での調査、検証、開発
 
 重要なのは、Google Sheets を捨てないことです。
 
-ただし、Sheets は正本ではなく、GitHub の Issues と Markdown から生成・同期される先方確認用アウトプットとして扱います。AI が読む正本は GitHub に置き、クライアントが見る成果物は Sheets に出します。クライアントはエンジニアではなく GitHub には馴染みがないため、GitHub を直接見せることはしません。
+ただし、Sheets は正本ではなく、GitHub の Issues と Markdown から生成・同期される先方とのインターフェースとして扱います。MTG での状況共有・文字ベースのすり合わせ・質問への回答記入は Sheets 上で行い、書き込まれた内容は確認後に GitHub へ昇格します。AI が読む正本は GitHub に置き、クライアントが見る成果物は Sheets に出します。クライアントはエンジニアではなく GitHub には馴染みがないため、GitHub を直接見せることはしません。
 
 正本の分担は Issue 駆動です。状態が動くもの（工程タスク・質問）は Issues、確定した一覧（要件・画面・機能・テストケース）は Markdown、意思決定は decisions/ に置きます。CSV は使いません（Decision 0005）。
 

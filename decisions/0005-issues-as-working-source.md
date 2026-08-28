@@ -12,7 +12,7 @@ Accepted
 
 進行中に状態が動くもの（工程タスク・質問・先方確認事項）は GitHub Issues を正本とする。CSV ファイルは全廃する。画面一覧・機能一覧・テストケースなどの静的な一覧は Markdown の表で管理する。
 
-Google Sheets は先方確認用のアウトプット専用とし、Issues と Markdown から生成する。
+Google Sheets は先方とのインターフェースとする。Issues と Markdown から生成し、MTG での状況共有・文字ベースのすり合わせ・質問回答の記入にも使う。先方が書き込んだ内容は確認後に GitHub へ昇格する（正本はあくまで GitHub）。
 
 ## Reason
 

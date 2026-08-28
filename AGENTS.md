@@ -10,7 +10,7 @@ AI Workflow OS は、AIそのものを中心にした自動化ではなく、業
 
 - 日本語で簡潔に作業する
 - 確認済みの事実と未確認の仮説を混ぜない
-- GitHub（Issues + Markdown）を正本、Google Sheets を先方確認用アウトプットとして扱う
+- GitHub（Issues + Markdown）を正本、Google Sheets を先方とのインターフェース（共有・すり合わせ・回答記入）として扱う
 - 状態が動くもの（工程タスク・質問）は Issues に置く。CSV は使わない
 - クライアント合意前の不明点は question Issue に置く
 - 詳細設計、API設計、DB設計は要件定義フェーズに持ち込まない
